@@ -16,7 +16,7 @@ services:
       - dockerphp
 
   db:
-    image: mysql:5.7
+    image: mysql:8.0
     container_name: dockerphp-db
     restart: unless-stopped
     environment:

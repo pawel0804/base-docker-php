@@ -40,3 +40,4 @@ RUN mkdir -p /home/telfy/.composer && \
 WORKDIR /var/www
 
 USER telfy
+
